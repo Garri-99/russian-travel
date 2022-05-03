@@ -1,0 +1,18 @@
+.flex-container {
+  max-width: calc(100% - 48px*2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen  and (max-width: 600px) {
+  .flex-container {
+    max-width: calc(100% - 24px*2)
+  }
+}

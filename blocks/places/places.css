@@ -1,0 +1,30 @@
+.places {
+  max-width: calc(100% - 148px*2);
+  display: grid;
+  grid-template-columns: minmax(min-content, 984px);
+  grid-auto-rows: min-content;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: calc(100% - 48px*2);
+    grid-template-columns: minmax(min-content, 928px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc(100% - 24px*2);
+    grid-template-columns: minmax(min-content, 720px);
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 100%;
+    grid-template-columns: minmax(min-content, 100%);
+    row-gap: 50px;
+  }
+}

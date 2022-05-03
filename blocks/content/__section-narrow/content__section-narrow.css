@@ -1,0 +1,15 @@
+.content__section-narrow {
+  margin: 0 auto 92px
+}
+
+@media screen and (max-width: 768px) {
+  .content__section-narrow {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content__section-narrow {
+    margin-bottom: 64px;
+  }
+}
