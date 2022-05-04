@@ -6,6 +6,10 @@
   margin-right: 18px;
 }
 
+.footer__link:last-of-type {
+  margin-right: 0;
+}
+
 .footer__link:hover {
   opacity: 0.8;
 }
@@ -17,5 +21,8 @@
     display: block;
     margin-right: 0;
     margin-bottom: 32px;
+  }
+  .footer__link:last-of-type {
+    margin-bottom: 0;
   }
 }
