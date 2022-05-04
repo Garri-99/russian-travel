@@ -11,8 +11,13 @@
   }
 }
 
-@media screen  and (max-width: 600px) {
+@media screen  and (max-width: 715px) {
   .flex-container {
-    max-width: calc(100% - 24px*2)
+    max-width: calc(100% - 16px*2);
+  }
+  .flex-container:last-child {
+    flex-direction: column;
+    min-height: 310px;
+    align-items: flex-start;
   }
 }
