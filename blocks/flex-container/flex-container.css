@@ -15,7 +15,7 @@
   .flex-container {
     max-width: calc(100% - 16px*2);
   }
-  .flex-container:last-child {
+  .footer.flex-container {
     display: block;
   }
 }
